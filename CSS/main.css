@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.navbar {
+    background-color: black;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.list ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.list ul li {
+    margin-right: 15px;
+}
+
+.list ul li a {
+    color: white;
+}
+
+.portfolio {
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-item-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 1%;
+    justify-content: center;
+}
+.portfolio-item {
+    width: 32.3%;
+}
+
+.portfolio-item img {
+    width: 100%;
+    display: block;
+}
